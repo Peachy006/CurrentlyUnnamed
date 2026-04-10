@@ -11,8 +11,8 @@ export default function Home() {
                 <DarkVeil
                     hueShift={0}
                     noiseIntensity={0}
-                    scanlineIntensity={0}
-                    speed={0.5}
+                    scanlineIntensity={0.2}
+                    speed={1}
                     scanlineFrequency={0}
                     warpAmount={0}
                 />

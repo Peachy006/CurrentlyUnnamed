@@ -1,7 +1,9 @@
+import Link from 'next/link'
+
 
 const navLinks = [
     { name: 'Home', href: '#home' },
-    { name: 'About', href: '#about' },
+    { name: 'About', href: '/about' },
     { name: 'Projects', href: '#projects' },
     { name: 'Contact', href: '#contact' },
 ];
@@ -15,11 +17,12 @@ export default function Navbar() {
                 <ul className="flex-1 flex justify-center gap-8 text-white">
                     {navLinks.map((link) => (
                         <li key={link.name}>
-                            <a
+                            <Link
                                 href={link.href}
-                                className="inline-block hover:text-gray-300 transition-transform duration-200 hover:scale-110 text-l"                            >
+                                className="inline-block hover:text-gray-300 transition-transform duration-200 hover:scale-110 text-l"
+                            >
                                 {link.name}
-                            </a>
+                            </Link>
                         </li>
                     ))}
                 </ul>
