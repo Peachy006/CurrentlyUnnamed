@@ -9,7 +9,7 @@ const navLinks = [
 export default function Navbar() {
     return (
         <nav className="w-screen h-[10vh] border-b-2 border-indigo-200/30 flex items-center justify-center">
-            <div className="w-[80vw] bg-black/55 rounded-4xl h-3/4 flex items-center px-8 border border-gray-700">
+            <div className="w-[80vw] bg-black/55 rounded-4xl h-3/4 flex items-center px-8 border border-gray-700 shadow-2xl">
                 <div className="text-white font-bold text-xl">The Tech Gap</div>
 
                 <ul className="flex-1 flex justify-center gap-8 text-white">
