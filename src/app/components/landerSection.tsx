@@ -8,14 +8,14 @@ export default function landerSection() {
                 delay={200}
                 animateBy="words"
                 direction="top"
-                className="text-7xl mb-8 font-oswald text-center"
+                className="text-7xl mb-6 font-oswald text-center"
             />
             <BlurText
                 text="IT - By humans. For humans"
                 delay={200}
                 animateBy="words"
                 direction="top"
-                className="text-5xl mb-8 font-oswald text-center"
+                className="text-5xl mb-8 pt-2 font-oswald text-center  text-neutral-600 border-t-2"
             />
         </div>
     );

@@ -1,6 +1,7 @@
 import NavBar from "./components/navbar";
 import LanderSection from "./components/landerSection";
 import DarkVeil from "./components/darkveil/DarkVeil";
+import MobileNavBar from "./components/MobileNavBar";
 
 export default function Home() {
     return (
@@ -19,7 +20,12 @@ export default function Home() {
 
             {/* Content sits above the veil */}
             <div className="relative z-10 w-full flex flex-col items-center">
-                <NavBar />
+                <div className="block min-[801px]:hidden">
+                    <MobileNavBar />
+                </div>
+                <div className="hidden min-[801px]:block">
+                    <NavBar />
+                </div>
                 <LanderSection />
             </div>
         </div>
