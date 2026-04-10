@@ -17,7 +17,7 @@ export default function Navbar() {
                         <li key={link.name}>
                             <a
                                 href={link.href}
-                                className="inline-block hover:text-gray-300 transition-transform duration-200 hover:scale-110 text-xl"                            >
+                                className="inline-block hover:text-gray-300 transition-transform duration-200 hover:scale-110 text-l"                            >
                                 {link.name}
                             </a>
                         </li>
