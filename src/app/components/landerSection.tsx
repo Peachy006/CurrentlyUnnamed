@@ -12,7 +12,7 @@ export default function landerSection() {
             />
             <BlurText
                 text="IT - By humans. For humans"
-                delay={200}
+                delay={100}
                 animateBy="words"
                 direction="top"
                 className="text-5xl mb-8 pt-2 font-oswald text-center text-neutral-600 border-t-2"
