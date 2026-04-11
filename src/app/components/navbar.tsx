@@ -28,9 +28,7 @@ export default function Navbar() {
                 </ul>
 
                 <div className="flex items-center gap-4">
-                    <button className="bg-white text-black px-6 py-2 rounded-full font-medium hover:bg-gray-200 transition">
-                        Login
-                    </button>
+                    <Link href="/login" className="bg-white text-black px-6 py-2 rounded-full font-medium hover:bg-gray-200 transition">Login</Link>
                 </div>
             </div>
         </nav>

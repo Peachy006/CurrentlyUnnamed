@@ -3,11 +3,11 @@
 import React, { useState } from 'react';
 
 const navLinks = [
-    { name: 'Home', href: '#home' },
-    { name: 'About', href: '#about' },
-    { name: 'Projects', href: '#projects' },
-    { name: 'Contact', href: '#contact' },
-    { name: 'Login', href: '#login' },
+    { name: 'Home', href: '/home' },
+    { name: 'About', href: '/about' },
+    { name: 'Projects', href: '/projects' },
+    { name: 'Contact', href: '/contact' },
+    { name: 'Login', href: '/login' },
 ];
 
 export default function MobileNavBar() {
