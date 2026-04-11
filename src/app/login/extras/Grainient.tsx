@@ -169,6 +169,7 @@ const Grainient: React.FC<GrainientProps> = ({
         canvas.style.width = '100%';
         canvas.style.height = '100%';
         canvas.style.display = 'block';
+        canvas.style.zIndex = '0';
 
         const container = containerRef.current;
         container.appendChild(canvas);
