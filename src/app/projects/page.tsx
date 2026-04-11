@@ -8,10 +8,10 @@ export default function AboutPage() {
         <div>
             <div style={{ position: 'fixed', inset: 0, zIndex: 0 }}>
                 <Plasma
-                    color="#00A36C"
-                    speed={0.3}
+                    color="#B5260E"
+                    speed={0.2}
                     direction="forward"
-                    scale={1.7}
+                    scale={1.4}
                     opacity={0.4}
                     mouseInteractive={false}
                 />
