@@ -37,16 +37,6 @@ export default function LoginPage() {
                 : { username: formData.username, password: formData.password };
 
         try {
-            // TODO: Replace with your actual API call
-            // const res = await fetch("/api/auth/login", {
-            //   method: "POST",
-            //   headers: { "Content-Type": "application/json" },
-            //   body: JSON.stringify(payload),
-            // });
-            // if (!res.ok) throw new Error("Invalid credentials");
-            // const data = await res.json();
-            // handle success (e.g. store token, redirect)
-
             console.log("Login payload:", payload);
             await new Promise((r) => setTimeout(r, 800)); // remove when wiring backend
         } catch (err) {
@@ -77,7 +67,7 @@ export default function LoginPage() {
             </div>
 
             {/* Page body */}
-            <div className="relative z-10 flex min-h-[calc(100vh-64px)] items-center justify-center px-4 py-16">
+            <div className="relative z-0 flex min-h-[calc(100vh-64px)] items-center justify-center px-4 py-16">
                 <div className="w-full max-w-md">
 
                     {/* Card */}
